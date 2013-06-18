@@ -1,5 +1,7 @@
 Car := Object clone
 ka := Car clone
+
+# ::= creates the slot and creates a setter for it automatically
 ka numberOfWheels ::= 4
 
 ka slotNames println
